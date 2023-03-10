@@ -1,0 +1,2 @@
+# Sempro
+Ucapan Sempro
