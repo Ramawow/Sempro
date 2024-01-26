@@ -156,21 +156,22 @@
 </head>
 <meta charset="utf-8">
 <title>
-    Berfaedah
+    IT~
 </title>
 
-<body>
+<body oncontextmenu="return false" onselectstart="return false"
+    onkeydown="if ((arguments[0] || window.event).ctrlKey) return false">
     <script type="text/javascript">
-        alert("Halo Sherlin")
+        alert("Halo Mey")
         alert("Kayanya Ada Yang Sempro Nih")
-        var usia = prompt("Bagaimana Perasanya Wisuda Tahun Ini")
+        var usia = prompt("Bagaimana Perasaannya Sempro Tahun Ini")
         if (usia) {
             alert('Alhamdulillah Kalo ' + usia + ' jangan Lupa Bersyukur')
 
         } else {
             alert("yaudah kalo males ngetik")
         }
-        alert("Kami Segenap Keluarga Besar Berfaedah mengucapkan")
+        alert("Kami Segenap Keluarga Besar Informatika angkatan 2019 mengucapkan")
         alert("Barakallah fii ilmi. Selamat atas sempronya. Semoga senantiasa bisa bermanfaat bagi siapa pun dan semoga Allah SWT mempermudah segala urusanmu dalam hal apa pun di dunia ini.")
         alert("Doa kan teman-teman mu segera sempro ya dan diberikan kemudahan serta kesuksesan dalam menyusun Skripsi/TA nya di sepertiga malam mu")
         alert("dan 1 hal yang jangan sampai lupa")
@@ -233,7 +234,7 @@
             style="border-radius:50%; border: 10px solid #21f7d7;">
             <source src="video.mp4" type="video/mp4">
         </video> -->
-        <img src="img/11.jpg" width="450px" height="550px" style="border-radius:50%; border: 10px solid #21f7d7;">
+        <img src="img/mey1.JPG" width="450px" height="450px" style="border-radius:50%; border: 10px solid #21f7d7;">
     </div>
     <br>
     <br>
@@ -249,16 +250,16 @@
             <!--radio buttons end-->
             <!--slide images start-->
             <div class="slide first">
-                <img src="img/11.jpg" alt="">
+                <img src="img/mey.png" alt="">
             </div>
             <div class="slide">
-                <img src="img/10.jpg" alt="">
+                <img src="img/mey1.JPG" alt="">
             </div>
             <div class="slide">
-                <img src="img/2.jpg" alt="">
+                <img src="img/mey.png" alt="">
             </div>
             <div class="slide">
-                <img src="img/10.jpg" alt="">
+                <img src="img/mey1.JPG" alt="">
             </div>
             <!--slide images end-->
             <!--automatic navigation start-->
@@ -318,6 +319,20 @@
     </div>
     <br>
 
+    <script type="text/JavaScript">
+        //courtesy of BoogieJack.com
+        function killCopy(e){
+        return false
+        }
+        function reEnable(){
+        return true
+        }
+        document.onselectstart=new Function ("return false")
+        if (window.sidebar){
+        document.onmousedown=killCopy
+        document.onclick=reEnable
+        }
+        </script>
 
 
 </body>
